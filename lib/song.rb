@@ -20,11 +20,7 @@ class Song
   end
 
   def self.artists
-    @@artists.select.with_index {|artist, index|
-      if !@@artists[0..index-1].include?(artist)
-        artist
-      end
-    }
+    @@artists.uniq
   end
 
   def self.genres
