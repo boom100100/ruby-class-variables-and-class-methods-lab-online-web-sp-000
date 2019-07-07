@@ -28,6 +28,8 @@ class Song
   end
 
   def genre_count
+    genre_count = {}
+    
   end
 
   def artist_count
