@@ -8,9 +8,9 @@ class Song
     @artist = artist
     @genre = genre
 
-    @@count = 0
-    @@artists = []
-    @@genres = []
+    :@@count = 0
+    :@@artists = []
+    :@@genres = []
 
   end
 end
