@@ -33,7 +33,7 @@ class Song
       if genre_count.keys.include?(item)
         genre_count[item] = genre_count[item]+1
       else
-        genre_count[item] = 0
+        genre_count[item] = 1
       end
     }
     genre_count
