@@ -36,6 +36,7 @@ class Song
         genre_count[item] = 0
       end
 
+      genre_count
     }
 
   end
