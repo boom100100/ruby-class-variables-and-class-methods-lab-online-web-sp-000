@@ -31,7 +31,7 @@ class Song
     genre_count = {}
     @@genres.each {|item|
       if genre_count.keys.include?(item)
-        genre_count[item] = genre_count[item]+1
+        #genre_count[item] = genre_count[item]+1
       else
         genre_count[item] = 0
       end
