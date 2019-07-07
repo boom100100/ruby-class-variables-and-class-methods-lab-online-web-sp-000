@@ -18,11 +18,11 @@ class Song
   end
 
   def self.artists
-    @@count
+    @@artists
   end
 
   def self.genres
-    @@count
+    @@genres
   end
 
 end
