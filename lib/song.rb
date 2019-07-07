@@ -21,7 +21,7 @@ class Song
 
   def self.artists
     @@artists.select.with_index {|artist, index|
-      if !@@artists[0..index-1].include?(artist)
+      if !@@artists[0..index].include?(artist)
         artist
       end
     }
