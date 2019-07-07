@@ -27,7 +27,7 @@ class Song
     @@genres.uniq
   end
 
-  def genre_count
+  def self.genre_count
     genre_count = {}
     @@genres.each {|item|
       if genre_count.keys.include?(item)
@@ -40,6 +40,6 @@ class Song
 
   end
 
-  def artist_count
+  def self.artist_count
   end
 end
